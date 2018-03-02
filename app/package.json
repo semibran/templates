@@ -1,0 +1,25 @@
+{
+  "name": "{{name}}",
+  "version": "0.0.0",
+  "description": "{{description}}",
+  "author": "semibran (Brandon Semilla)",
+  "repository": "semibran/{{name}}",
+  "license": "MIT",
+  "main": "src/script.js",
+  "keywords": [],
+  "devDependencies": {
+    "autoprefixer": "*",
+    "babel-cli": "*",
+    "babel-preset-env": "*",
+    "clean-css-cli": "*",
+    "gh-pages": "*",
+    "html-minifier": "*",
+    "node-sass": "*",
+    "postcss-cli": "*",
+    "rollup": "*",
+    "rollup-plugin-commonjs": "*",
+    "rollup-plugin-json": "*",
+    "rollup-plugin-node-resolve": "*",
+    "uglify-js": "*"
+  }
+}

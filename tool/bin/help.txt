@@ -1,0 +1,6 @@
+usage:
+  $ {{name}} [options]
+
+options:
+  -h, --help     show this help message
+  -v, --version  show package version
