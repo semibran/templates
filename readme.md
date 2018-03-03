@@ -1,7 +1,5 @@
 # templates
-This repository holds a collection of opinionated templates designed for use with [`semibran/scaffy`][semibran/scaffy].
-
-The following templates are included:
+This repository holds a collection of opinionated templates for use with [`scaffy`][semibran/scaffy]. The following directories are included:
 
 ```
 app
@@ -35,6 +33,16 @@ tool
 ├── license
 ├── package.json
 └── readme.md
+```
+
+## usage
+To use these templates locally, clone this repository and invoke `scaffy` with the data variables `name` and `description`.
+
+```sh
+$ git clone git@github.com:semibran/templates
+$ scaffy templates/app -o app \
+> --name=app \
+> --description="an example app"
 ```
 
 [semibran/scaffy]: https://github.com/semibran/scaffy
