@@ -43,6 +43,8 @@ $ git clone git@github.com:semibran/templates
 $ scaffy templates/app -o app \
 > --name=app \
 > --description="an example app"
+$ cd app
+$ git init
 ```
 
 [semibran/scaffy]: https://github.com/semibran/scaffy
